@@ -1,0 +1,233 @@
+/*Title*/
+#title {
+  background-image: url('Images/Geisel\ Library.JPG');
+  height: 100%;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  position: fixed;
+}
+
+.container-fluid {
+  padding: 3% 5%;
+}
+.col-sm-4 {
+  clip-path: circle(28% at 50% 28%);
+  margin-left: 5%;
+}
+
+.col-lg-6 {
+  text-align: left;
+  padding-top: 3%;
+}
+
+ 
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  height: 30px;
+}
+ .navbar-brand {
+  font-family:'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+ }
+
+
+ nav.item {
+  padding: 0 18px;
+ }
+
+.nav-link {
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+
+/*Experience Section*/
+#experience-title {
+  background-color: #BDC6D1;
+  height: 100%;
+}
+
+#work {
+  text-align: center;
+  background-color: #abb8c8;
+  margin-top:5px;
+  position: relative;
+}
+
+.carousel-item {
+  padding: 5%;
+}
+
+.carousel-text {
+  text-align:center;
+  display:block;
+  margin: 20px;
+}
+
+.work-image {
+  width: 8%;
+}
+
+.volunteer-image {
+  width: 10%;
+}
+
+.work-link {
+  color:#000000b0;
+}
+
+.work-link:hover {
+  color:#ffffff;
+}
+
+.experience-text {
+  color:#242a32;
+}
+
+/*Individual Experience Pages*/
+#indv-experience-title {
+  background-color: #f2f7fd;
+  height: 100vh;
+  position: fixed;
+}
+.aha-col-sm-4 img{
+  margin-left: 80%;
+}
+.lab-col-sm-4 img {
+  margin-left: 80%;
+  width: 280px;
+  height: 280px;
+}
+
+.la-col-sm-4 img {
+  margin-left: 80%;
+  width: 250px;
+  height: 250px;
+}
+
+.ctl-col-sm-4 img {
+  margin-left: 80%;
+  width: 280px;
+  height: 280px;
+}
+
+.ascn-col-sm-4 img {
+  margin-left: 80%;
+  width: 280px;
+  height: 280px;
+}
+
+.wushu-col-sm-4 img {
+  margin-left: 80%;
+  width: 280px;
+  height: 280px;
+}
+
+.indv-exp-col-lg-6 {
+  text-align: left;
+  margin-top: -20%;
+  margin-bottom: 40%;
+  margin-right: 10%;
+  margin-left: 42%;
+}
+
+
+/*Work Example Section*/
+#example-title {
+  position:absolute; 
+  height:100%; 
+  width:100%;
+  background-color:#BDC6D1;
+}
+
+.card {
+  width: 50rem;
+  margin-left: 25%;
+}
+
+.card-text {
+  color:#242a32;
+}
+
+.card-header {
+  font-size: large;
+}
+
+.link {
+  color: #566679;
+  display:inline;
+}
+
+.link:hover {
+  color:#d5abd4;
+}
+
+/*Contact Me Section*/
+#contact-title {
+  background-color:#566679;
+  height: 100vh;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  position: fixed;
+}
+  
+.container-fluid {
+  padding: 3% 5%;
+}
+
+.contact-card {
+  width: 30%;
+  height: 30%;
+  margin-left: 35%;
+  margin-top: 5%;
+  color: #242a32;
+}
+.contact-card-body {
+  text-align: center;
+  padding: 10% 30%;
+}
+
+
+
+
+/*Consistent Characteristics*/
+a {
+  color: white;
+}
+
+
+h1 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #ffff;
+}
+h2 {
+  color: #242a32;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h3 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #242a32;
+}
+h4 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #242a32;
+}
+
+p{
+  color: #242a32;
+}
+
+
